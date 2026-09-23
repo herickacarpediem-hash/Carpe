@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CarpeDesafio — Corrida pelo Prêmio Reclame AQUI | Carpediem Homes</title>
+  <meta name="description" content="Plataforma interna gamificada de mobilização e registro de ações da Carpediem Homes para o Prêmio Reclame AQUI.">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            cpNavy: '#0C1838',
+            cpOrange: '#EA580C'
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Google Fonts & Custom CSS -->
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Chart.js & Canvas-Confetti CDNs -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+</head>
+<body class="bg-[#F8FAFC] text-slate-900 antialiased selection:bg-orange-500 selection:text-white">
+
+  <!-- Application Root -->
+  <div id="app-root"></div>
+
+  <!-- JavaScript Modules -->
+  <script src="js/utils.js"></script>
+  <script src="js/store.js"></script>
+  <script src="js/components/LoginForm.js"></script>
+  <script src="js/components/Navigation.js"></script>
+  <script src="js/components/LeaderDashboard.js"></script>
+  <script src="js/components/SubmitActionModal.js"></script>
+  <script src="js/components/AdminDashboard.js"></script>
+  <script src="js/components/AuditPanel.js"></script>
+  <script src="js/components/RankingView.js"></script>
+  <script src="js/components/WeeklyClosureView.js"></script>
+  <script src="js/components/AdminAuxViews.js"></script>
+  <script src="js/app.js"></script>
+
+</body>
+</html>
